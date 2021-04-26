@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         print("tuplesOrderByForString")
         print(tuplesOrderByForString)
         
-        var p = Patient.init()
+        var p = Patient()
         print(p.name)
         print(p.birthDate)
         print(p.diagnosis)

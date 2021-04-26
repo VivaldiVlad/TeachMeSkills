@@ -13,7 +13,7 @@ class Patient {
     let diagnosis: String
     let adress: Adress
     
-    init(_ name: String = "Unknow", _ birthDate: Date = Date.init(), _ diagnosis: String = "none", _ adress: Adress = Adress.init()){
+    init(_ name: String = "Unknow", _ birthDate: Date = Date(), _ diagnosis: String = "none", _ adress: Adress = Adress()){
         self.name = "Default"
         self.birthDate = birthDate
         self.diagnosis = diagnosis
