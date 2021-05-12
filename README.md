@@ -6,5 +6,6 @@ This repo for homeworks ios course
 * hw_01 done
 * hw_02 done
 * hw_03 done
-* hw_04 in process
-* hw_05 in process
+* hw_04 done
+* hw_05 done
+* hw_06 in process
