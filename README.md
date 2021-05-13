@@ -8,4 +8,5 @@ This repo for homeworks ios course
 * hw_03 done
 * hw_04 done
 * hw_05 done
-* hw_06 in process
+* hw_06 done
+* hw_07 in process
