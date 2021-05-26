@@ -12,7 +12,7 @@
         <!--First View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FirstViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstViewController" id="BYZ-38-t0r" customClass="FirstViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +68,8 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="TYp-4T-1vu" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="RHh-3f-5QY"/>
+                                    <action selector="nextButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kwo-He-VTT"/>
+                                    <segue destination="TYp-4T-1vu" kind="show" id="RHh-3f-5QY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -83,9 +84,9 @@
         <!--Second View Controller-->
         <scene sceneID="gEK-2a-TkM">
             <objects>
-                <viewController id="TYp-4T-1vu" customClass="SecondViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" id="TYp-4T-1vu" customClass="SecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UtB-jk-WI2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aec-R9-e2T">

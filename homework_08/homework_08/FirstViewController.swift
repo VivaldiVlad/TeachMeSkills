@@ -13,9 +13,10 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let controller = segue.destination
-            controller.modalPresentationStyle = .overFullScreen
-            controller.modalTransitionStyle = .crossDissolve
+    @IBAction func nextButtonPressed(_ sender: UIButton) {
+        var storyboard = UIStoryboard(name: "Main", bundle: nil)
+        var view = storyboard.instantiateViewController(identifier: "SecondViewController") as SecondViewController
+        view.modalTransitionStyle = .coverVertical
+        view.modalPresentationStyle = .fullScreen
     }
 }

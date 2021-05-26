@@ -13,7 +13,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 
     }
-    @IBAction func backButton(_ sender: Any) {
+    @IBAction func backButton(_ sender: UIButton) {
         dismiss(animated: false)
     }
 }
